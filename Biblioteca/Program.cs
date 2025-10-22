@@ -104,7 +104,7 @@ do
             book.RemoveBook(titlee, books);
             break;
         case "0":
-            Console.WriteLine("Obrigado por utilizar o programa.");
+            Console.WriteLine("Voltando para o menu principal.");
             working = false;
             break;
         default:
@@ -166,7 +166,7 @@ string SearchBookMenu()
     Console.WriteLine("|-----+----------------------|");
     Console.WriteLine("|  4  |  Listar todos        |");
     Console.WriteLine("|-----+----------------------|");
-    Console.WriteLine("|  0  |  Sair                |");
+    Console.WriteLine("|  0  |  Voltar para o Menu  |");
     Console.WriteLine("+-----+----------------------+");
     Console.WriteLine();
     Console.Write("Escreva o numéro da opção corretamente: ");
